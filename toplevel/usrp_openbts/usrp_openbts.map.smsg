@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at rx_buffer_inband.v(68): object "WR" differs only in case from object "wr" in the same scope
+Info (10281): Verilog HDL Declaration information at chan_fifo_reader.v(33): object "TIMESTAMP" differs only in case from object "timestamp" in the same scope
