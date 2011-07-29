@@ -21,7 +21,7 @@ To use this bitstream with OpenBTS, you must make a few minor modifications:
 
 $ sudo cp usrp_openbts.rbf /usr/local/share/usrp/rev4
 
-(...or wherever gnuardio installed the usrp bitstreams on your machine.  You should see a bitstream called std_inband.rbf in the directory, which is the default OpenBTS Cyclone FPGA bitstream for which the original design has been lost forever).
+(...or wherever gnuradio installed the usrp bitstreams on your machine.  You should see a bitstream called std_inband.rbf in the directory, which is the default OpenBTS Cyclone FPGA bitstream for which the original design has been lost forever).
 
 2) In the OpenBTS source code, navigate to the Transceiver52M directory and modify USRPDevice.cpp to load the correct FPGA bitstream:  in the subroutine USRPDevice::make(bool wSkipRx), change the line:
 
