@@ -9,7 +9,8 @@ Again, USE AT YOUR OWN RISK! If you have OpenBTS-specific questions about the de
 
 You can download the Quartus II Web Edition tools from [*Altera*](https://www.altera.com/download/dnl-index.jsp).
 
-The Altera project file is ./usrp1_openbts/toplevel/usrp_openbts/usrp_inband_usb.qpf
+The Altera project file is ./usrp1_openbts/toplevel/usrp_openbts/usrp_inband_usb.qpf.
+
 The changes from the usrp_inband_usb version of the USRP1 FPGA code provided by Ettus are minor.  The timestamp clock in tx_buffer_inband.v and rx_buffer_inband.v must be incremented at the GSM symbol rate, not the FPGA clock rate (52 MHz as coded), in order to be compatible with the timestamping scheme in OpenBTS.
 
 The project revision is called usrp_openbts and generates a bitstream called usrp_openbts.rbf.
