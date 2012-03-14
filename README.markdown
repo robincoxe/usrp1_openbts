@@ -9,6 +9,9 @@ Again, USE AT YOUR OWN RISK! If you have OpenBTS-specific questions about the de
 
 You can download the Quartus II Web Edition tools from [*Altera*](https://www.altera.com/download/dnl-index.jsp).
 
+UPDATE (MARCH 2012):  You need Version 10.1 or older of the Altera tools to handle the Cyclone family with the free Web Edition tools!
+You can download it [*here*]: (ftp://ftp.altera.com/outgoing/release/). 
+
 The Altera project file is ./usrp1_openbts/toplevel/usrp_openbts/usrp_inband_usb.qpf.
 
 The changes from the usrp_inband_usb version of the USRP1 FPGA code provided by Ettus are minor.  The timestamp clock in tx_buffer_inband.v and rx_buffer_inband.v must be incremented at the GSM symbol rate, not the FPGA clock rate (52 MHz as coded), in order to be compatible with the timestamping scheme in OpenBTS.
