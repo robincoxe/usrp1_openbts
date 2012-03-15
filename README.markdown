@@ -9,8 +9,8 @@ Again, USE AT YOUR OWN RISK! If you have OpenBTS-specific questions about the de
 
 You can download the Quartus II Web Edition tools from [*Altera*](https://www.altera.com/download/dnl-index.jsp).
 
-UPDATE (MARCH 2012):  You need Version 10.1 or older of the Altera tools to handle the Cyclone family with the free Web Edition tools!
-You can download it [*here*]: (ftp://ftp.altera.com/outgoing/release/). 
+UPDATE (MARCH 2012):  You need Version 11.0 or older of Quartus II to handle the Cyclone family with the free Web Edition tools!
+If it's no longer available from the link above, try: ftp://ftp.altera.com/outgoing/release/ 
 
 The Altera project file is ./usrp1_openbts/toplevel/usrp_openbts/usrp_inband_usb.qpf.
 
