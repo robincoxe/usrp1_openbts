@@ -3,9 +3,9 @@
 Brought to you by Robin Coxe of [*Close-Haul Communications, Inc.*](http://www.close-haul.com/).
 Created with Altera Quartus II Version 10.1 Build 153 for use on a USRP1 Rev. 4 board with a 52 MHz clock.  The bitstream may work with a 64 MHz clock, but it has not been tested.
 
-DISCLAIMER: THIS PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+DISCLAIMER: THIS PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
 
-Again, USE AT YOUR OWN RISK! If you have OpenBTS-specific questions about the design, please ask them on the OpenBTS mailing list (openbts-discuss@lists.sourceforge.net). If you aren't familiar with the Altera FPGA design flow, please consult the Altera website or Google for tutorials.  Unfortunately, I don't have time to help with basic FPGA design questions.
+Again, USE AT YOUR OWN RISK! If you have OpenBTS-specific questions about the design, please ask them on the OpenBTS mailing list (openbts-discuss@lists.sourceforge.net). If you aren't familiar with the Altera FPGA design flow, please consult the Altera (now Intel FPGA) website or Google for tutorials.
 
 You can download the Quartus II Web Edition tools from [*Altera*](https://www.altera.com/download/dnl-index.jsp).
 
