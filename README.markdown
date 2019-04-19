@@ -1,7 +1,6 @@
 # Altera Quartus II Project to recreate USRP1 Cyclone FPGA bitstream for OpenBTS
 
-Brought to you by Robin Coxe of [*Close-Haul Communications, Inc.*](http://www.close-haul.com/).
-Created with Altera Quartus II Version 10.1 Build 153 for use on a USRP1 Rev. 4 board with a 52 MHz clock.  The bitstream may work with a 64 MHz clock, but it has not been tested.
+Created with Altera (now Intel FPGA) Quartus II Version 10.1 Build 153 for use on a USRP1 Rev. 4 board with a 52 MHz clock.  The bitstream may work with a 64 MHz clock, but it has not been tested.
 
 DISCLAIMER: THIS PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
 
